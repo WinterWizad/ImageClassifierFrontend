@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Vision</title>
+    <!-- Include Dropzone CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Dropzone JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to Celebrity Classifier Project!</h1>
+      <!-- Div for Dropzone -->
+       <div class="celebrities">
+           <div class="celebrity">
+            <span class="celebrity_name">Lionel Messi</span>
+            <img src="../assets/lionel_messi/lionel_messi0.png">
+          </div>
+           <div class="celebrity">
+            <span class="celebrity_name">Maria Sharapova</span>
+            <img src="../assets/maria_sharapova/maria_sharapova0.png">
+          </div>
+           <div class="celebrity">
+            <span class="celebrity_name">Roger Federer</span>
+            <img src="../assets/roger_federer/roger_federer0.png">
+          </div>
+           <div class="celebrity">
+            <span class="celebrity_name">Serena Williams</span>
+            <img src="../assets/serena_williams/serena_williams1.png">
+          </div>
+           <div class="celebrity">
+            <span class="celebrity_name">Virat Kohli</span>
+            <img src="../assets/virat_kohli/image.png">
+          </div>
+
+    </div>
+    
+      <div id="dropzone" class="dropzone"></div>
+      <button id="submitBtn">Submit</button>
+
+      <div id="prediction"></div>
+      <h1>These images are not from Training or Testing set! </h1>
+      <h2>Drag and Drop these images up!</h2>
+      <div class="images_list"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
